@@ -131,3 +131,31 @@
     opacity: 0px;
        margin-right: -330px;
   }
+  .popular-tag {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    background-color: #ff3366;
+    color: #fff;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+.st {
+  
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 84px;
+  height: 15px;
+  top: 121.77px;
+  left: 108.23px;
+  gap: 0px;
+  opacity: 0px;
+    margin-left: 20px; 
+}
