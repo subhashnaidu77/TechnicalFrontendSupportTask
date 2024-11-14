@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Expanding Boxes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>YAY! It's BOGO</h2>
+
+    <div class="box" id="box1">
+      <div class="header">
+        <label>
+          <input type="radio" name="unit" onclick="toggleExpand('box1')">
+          1 Unit <span class="discount">10% Off</span>
+        </label>
+        <p class="price">$10.00 USD <span class="original-price">$24.00 USD</span></p>
+    
+      </div>
+      <div class="options" style="display: none;">
+        <div class="option-row">
+          <div class="option">
+            <label>Size</label>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="option">
+            <label>Color</label>
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" id="box2">
+      <div class="header">
+        <label>
+          <input type="radio" name="unit" onclick="toggleExpand('box2')">
+          2 Units <span class="discount">20% Off</span>
+        </label>
+        <p class="price">$18.00 USD <span class="original-price">$24.00 USD</span></p>
+      </div>
+      <div class="options" style="display: none;">
+        <!-- First row of size and color options for unit 1 -->
+        <div class="option-row">
+          <div class="option">
+            <label>Size</label>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="option">
+            <label>Color</label>
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+        <!-- Second row of size and color options for unit 2 -->
+        <div class="option-row">
+          <div class="option">
+            <label>Size</label>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="option">
+            <label>Color</label>
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="box" id="box3">
+      <div class="header">
+        <label>
+          <input type="radio" name="unit" onclick="toggleExpand('box3')">
+          3 Units <span class="discount">30% Off</span>
+        </label>
+        <p class="price">$24.00 USD <span class="original-price">$24.00 USD</span></p>
+      </div>
+      <div class="options" style="display: none;">
+        <!-- Three rows of size and color options for three units -->
+        <div class="option-row">
+          <div class="option">
+            <label>Size</label>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="option">
+            <label>Color</label>
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+        <div class="option-row">
+          <div class="option">
+            <label>Size</label>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="option">
+            <label>Color</label>
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+        <div class="option-row">
+          <div class="option">
+            <label>Size</label>
+            <select>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+          </div>
+          <div class="option">
+            <label>Color</label>
+            <select>
+              <option>Black</option>
+              <option>White</option>
+              <option>Red</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+<span class="deli"> Free Delivery 
+   
+</span>
+<span> Total : $20 USD</span>
+    <button class="add-to-cart">+ Add to Cart</button>
+</div>
+<span class="power">
+@Powered by Pumper
+</span> </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8;
+  }
+  .container {
+    width: 100%;
+    max-width: 490px;
+    padding: 20px;
+    text-align: center;
+  }
+  h2 {
+    color: #ff3366;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  .box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+  }
+  .box.expanded {
+    border-color: #ff3366;
+    background-color: #fff;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .header label {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .discount {
+    color: #ebe6e7;
+    font-weight: bold;
+    margin-left: 5px;
+    background-color: #ff2052;
+  }
+  .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.original-price {
+    font-size: 0.9em;
+    color: #aaa;
+    text-decoration: line-through;
+    margin-left: 5px;
+}
+
+  .options {
+    margin-top: 10px;
+  }
+  .option-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 8px;
+  }
+  .option {
+    flex: 1;
+    text-align: left;
+  }
+  .option label {
+    display: block;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+  }
+  .add-to-cart {
+    background-color: #ff3366;
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 8px;
+  }
+  .add-to-cart:hover {
+    background-color: #ff2052;
+  }
+  .deli{
+    color: #ff2052;
+    margin-right: 230px;
+    
+  }
+  .power
+{
+    color:   rgba(0, 0, 0, 0.4)   ;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 129px;
+    height: 15px;
+    top: 542px;
+    left: 271px;
+    gap: 0px;
+    opacity: 0px;
+       margin-right: -330px;
+  }
